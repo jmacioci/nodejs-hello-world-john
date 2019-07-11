@@ -2,6 +2,6 @@ var http = require('http');
 
 var server = http.createServer(function(req, res) {
   res.writeHead(200);
-  res.end('Hello John, this is your first Jenkins job');
+  res.end('Hello John, this is your first Jenkins Job');
 });
 server.listen(8080);
